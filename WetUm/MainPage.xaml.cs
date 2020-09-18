@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Essentials;
+using RGB.OneCallWeather;
 
 namespace WetUm
 {
@@ -33,7 +34,7 @@ namespace WetUm
 
                 if (location != null)
                 {
-                    lable1.Text = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}";
+                    await GetRegionAsync(location.Latitude, location.Longitude);
                 }
             }
             catch (FeatureNotSupportedException fnsEx)
@@ -54,6 +55,46 @@ namespace WetUm
             {
                 // Unable to get location
                 Console.WriteLine("ошибОЧКА: " + ex);
+            }
+        }
+
+        private async Task GetRegionAsync(double lat, double lon)
+        {
+            //API.Key = "251ecc83c9f9662f52e6f27f28de5962";
+            //API.units = "metric";
+            //string call = API.GetJSON(lat.ToString(), lon.ToString());
+            //WeatherData.Root weather = WeatherData.Parse(call);
+            try
+            {
+                var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
+
+                var placemark = placemarks?.FirstOrDefault();
+                if (placemark != null)
+                {
+                    
+                    var geocodeAddress =
+                        $"AdminArea:       {placemark.AdminArea}\n" +
+                        $"CountryCode:     {placemark.CountryCode}\n" +
+                        $"CountryName:     {placemark.CountryName}\n" +
+                        $"FeatureName:     {placemark.FeatureName}\n" +
+                        $"Locality:        {placemark.Locality}\n" +
+                        $"PostalCode:      {placemark.PostalCode}\n" +
+                        $"SubAdminArea:    {placemark.SubAdminArea}\n" +
+                        $"SubLocality:     {placemark.SubLocality}\n" +
+                        $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
+                        $"Thoroughfare:    {placemark.Thoroughfare}\n";
+                    
+
+                    lable1.Text = geocodeAddress;
+                }
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Feature not supported on device
+            }
+            catch (Exception ex)
+            {
+                // Handle exception that may have occurred in geocoding
             }
         }
     }

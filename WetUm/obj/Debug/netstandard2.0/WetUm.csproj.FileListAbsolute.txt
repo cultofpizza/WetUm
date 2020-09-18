@@ -20,7 +20,10 @@ C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstan
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfoInputs.cache
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfo.cs
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.dll
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\ref\WetUm.dll
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.pdb
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\RGB.OneCallWeather.dll
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\RGB.OneCallWeather.xml
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csproj.CopyComplete
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\XamlC.stamp
