@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {}
+    "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {
+    "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj",
+        "projectUniqueName": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj",
         "projectName": "WetUm",
-        "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj",
-        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\obj\\",
+        "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj",
+        "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -68,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

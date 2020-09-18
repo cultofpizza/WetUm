@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3WBABZMyj1URT9DoK7DoAcpiu9IJ8PA6o1mn7xh4EfprgKUxgPrf1jwQ/HfWi562Rd3lOsEa8PQ40Lq681wzdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wafph\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\wafph\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512"
+  ],
+  "logs": []
+}

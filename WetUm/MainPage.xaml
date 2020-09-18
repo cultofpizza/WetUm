@@ -6,15 +6,15 @@
              mc:Ignorable="d"
              x:Class="WetUm.MainPage">
 
-    <StackLayout>
+    <StackLayout Padding="10">
         <!-- Place new controls here -->
         <Label x:Name="lable1"
             Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="StartAndExpand" TextColor="#000000"/>
         <Button
             Clicked="Button_Clicked"
-            Text="Хай"/>
+            Text="Хай" HeightRequest="400"/>
     </StackLayout>
 
 </ContentPage>

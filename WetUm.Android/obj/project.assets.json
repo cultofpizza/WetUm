@@ -1932,24 +1932,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nikita\\.nuget\\packages\\": {},
+    "C:\\Users\\wafph\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+      "projectUniqueName": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
       "projectName": "WetUm.Android",
-      "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
-      "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.Android\\obj\\",
+      "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+      "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1963,8 +1963,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {
-              "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj"
+            "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {
+              "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj"
             }
           }
         }
