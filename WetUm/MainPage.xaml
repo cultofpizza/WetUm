@@ -8,10 +8,12 @@
 
     <StackLayout Padding="10">
         <!-- Place new controls here -->
+        <Entry x:Name="CityRequest" Placeholder="City" />
         <Label x:Name="lable1"
             Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="StartAndExpand" TextColor="#000000"/>
+        <ActivityIndicator Color="#ff4444"/>
         <Button
             Clicked="Button_Clicked"
             Text="Хай" HeightRequest="400"/>
