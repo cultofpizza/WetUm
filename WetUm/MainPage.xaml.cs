@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace WetUm
 {
@@ -16,6 +17,44 @@ namespace WetUm
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            GetLocation();
+        }
+
+        public async void GetLocation()
+        {
+            try
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.Medium);
+                var location = await Geolocation.GetLocationAsync(request);
+
+                if (location != null)
+                {
+                    lable1.Text = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}";
+                }
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+                Console.WriteLine("ошибОЧКА: " + fnsEx);
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+                Console.WriteLine("ошибОЧКА: " + pEx);
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+                Console.WriteLine("ошибОЧКА: " + ex);
+            }
         }
     }
 }

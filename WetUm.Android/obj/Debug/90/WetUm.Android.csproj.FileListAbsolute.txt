@@ -479,3 +479,4 @@ C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm.Android\obj\Debug
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
