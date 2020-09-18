@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Essentials;
 using RGB.OneCallWeather;
+using WetUm.Interfaces;
 
 namespace WetUm
 {
@@ -20,7 +21,7 @@ namespace WetUm
             InitializeComponent();
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
             GetLocation();
         }
@@ -45,6 +46,9 @@ namespace WetUm
             catch (FeatureNotEnabledException fneEx)
             {
                 // Handle not enabled on device exception
+                var reaction = await DisplayAlert("Ошибка", "Включите геолокацию", "ОК","Отмена");
+                if (reaction)
+                    DependencyService.Get<IOpenLocationSettings>().OpenSettings();
             }
             catch (PermissionException pEx)
             {
@@ -60,10 +64,10 @@ namespace WetUm
 
         private async Task GetRegionAsync(double lat, double lon)
         {
-            //API.Key = "251ecc83c9f9662f52e6f27f28de5962";
-            //API.units = "metric";
-            //string call = API.GetJSON(lat.ToString(), lon.ToString());
-            //WeatherData.Root weather = WeatherData.Parse(call);
+            API.Key = "251ecc83c9f9662f52e6f27f28de5962";
+            API.units = "metric";
+            string call = API.GetJSON(lat.ToString(), lon.ToString());
+            WeatherData.Root weather = WeatherData.Parse(call);
             try
             {
                 var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
@@ -82,7 +86,9 @@ namespace WetUm
                         $"SubAdminArea:    {placemark.SubAdminArea}\n" +
                         $"SubLocality:     {placemark.SubLocality}\n" +
                         $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
-                        $"Thoroughfare:    {placemark.Thoroughfare}\n";
+                        $"Thoroughfare:    {placemark.Thoroughfare}\n" +
+                        $"Ветер:    {weather.current.wind_speed}\n" +
+                        $"Дневная температура через 2 дня:    {weather.daily[1].temp.day}\n";
                     
 
                     lable1.Text = geocodeAddress;
@@ -91,10 +97,12 @@ namespace WetUm
             catch (FeatureNotSupportedException fnsEx)
             {
                 // Feature not supported on device
+                Console.WriteLine(fnsEx);
             }
             catch (Exception ex)
             {
                 // Handle exception that may have occurred in geocoding
+                Console.WriteLine(ex);
             }
         }
     }
