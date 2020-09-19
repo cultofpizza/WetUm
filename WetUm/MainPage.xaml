@@ -6,17 +6,92 @@
              mc:Ignorable="d"
              x:Class="WetUm.MainPage">
 
+    <ContentPage.Resources>
+        <ControlTemplate x:Key="HourlyItem">
+            <Frame BackgroundColor="#cacaca" Margin="1">
+                <Label Grid.Row="0" HorizontalTextAlignment="Center"/>
+            </Frame>
+        </ControlTemplate>
+    </ContentPage.Resources>
+    
+    
+    
     <StackLayout Padding="10">
-        <!-- Place new controls here -->
-        <Entry x:Name="CityRequest" Placeholder="City" />
+        <!-- Запрос города -->
+        <StackLayout>
+            <Grid BackgroundColor="#DAEEF0" ColumnSpacing="6">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.35*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <Entry Grid.Column="0" Grid.Row="0" x:Name="CityRequest" Placeholder="City"/>
+                <Button Grid.Column="1" Grid.Row="0" Clicked="Button_Clicked" Text="Хай"/>
+                
+            </Grid>
+
+        </StackLayout>
+        
+        <!-- Hourly Scroll -->
+        <StackLayout>
+            <ScrollView Orientation="Horizontal">
+                    <StackLayout>
+                    <Grid BackgroundColor="#D8F0F2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <BoxView Grid.Column="0" BackgroundColor="#cacaca" Margin="1"/>
+                        <Label x:Name="labelHour1" Grid.Column="0" Text="123" HorizontalTextAlignment="Center"></Label>
+
+                        <BoxView Grid.Column="1" BackgroundColor="#cacaca" Margin="1"/>
+                        <Label x:Name="labelHour1" Grid.Column="1" Text="123" HorizontalTextAlignment="Center"></Label>
+
+                        <BoxView Grid.Column="2" BackgroundColor="#cacaca" Margin="1"/>
+                        <Label x:Name="labelHour1" Grid.Column="2" Text="123" HorizontalTextAlignment="Center"></Label>
+
+                        <BoxView Grid.Column="3" BackgroundColor="#cacaca" Margin="1"/>
+                        <Label x:Name="labelHour1" Grid.Column="3" Text="123" HorizontalTextAlignment="Center"></Label>
+
+                        <BoxView Grid.Column="4" BackgroundColor="#cacaca" Margin="1"/>
+                        <Label x:Name="labelHour1" Grid.Column="4" Text="123" HorizontalTextAlignment="Center"></Label>
+
+                        <BoxView Grid.Column="5" BackgroundColor="#cacaca" Margin="1"/>
+                        <Label x:Name="labelHour1" Grid.Column="5" Text="123" HorizontalTextAlignment="Center"></Label>
+
+                    </Grid>
+                </StackLayout>
+                </ScrollView>
+
+
+
+
+            
+        </StackLayout>
+
+        
+        
+        
+        
+        
         <Label x:Name="lable1"
             Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="StartAndExpand" TextColor="#000000"/>
         <ActivityIndicator Color="#ff4444"/>
-        <Button
-            Clicked="Button_Clicked"
-            Text="Хай" HeightRequest="400"/>
+
     </StackLayout>
 
 </ContentPage>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {}
+    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {
+    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj",
+        "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
         "projectName": "WetUm",
-        "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj",
+        "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
         "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\obj\\",
+        "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

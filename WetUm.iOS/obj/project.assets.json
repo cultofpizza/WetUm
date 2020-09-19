@@ -1022,11 +1022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
       "projectName": "WetUm.iOS",
-      "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
+      "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
       "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.iOS\\obj\\",
+      "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1047,8 +1047,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {
-              "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj"
+            "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
+              "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gkKDk9VaqMeIHCEOUeDjEDiD5T7/c78AoHlsLln7/5aTkJ+YI1IcsvdAlyIvZXrVjZc2KryEFFu7iAW/itb4IA==",
+  "dgSpecHash": "5PgqKxTbmm5/kaYYGcnaoGM2sdxOS6MDNAK32A595hX7zw1AuKYYP+nlSnsg+IzMOM69EDkWVOTEDjMvQxRaVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj",
+  "projectFilePath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wafph\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\wafph\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

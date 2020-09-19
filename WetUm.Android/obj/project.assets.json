@@ -1938,11 +1938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+      "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
       "projectName": "WetUm.Android",
-      "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+      "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
       "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm.Android\\obj\\",
+      "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1963,8 +1963,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj": {
-              "projectPath": "C:\\Users\\wafph\\Source\\Repos\\WetUm\\WetUm\\WetUm.csproj"
+            "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
+              "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
             }
           }
         }
