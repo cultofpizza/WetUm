@@ -7,19 +7,18 @@
              x:Class="WetUm.MainPage">
     <!-- Шаблоны -->
     <ContentPage.Resources>
-        <ControlTemplate x:Key="HourlyItem">
-            <Frame BackgroundColor="#cacaca" Margin="1">
-                <Label Grid.Row="0" HorizontalTextAlignment="Center"/>
-            </Frame>
-        </ControlTemplate>
+        <ResourceDictionary>
+
+        </ResourceDictionary>
     </ContentPage.Resources>
     
     
     
-    <StackLayout Padding="10">
+    <StackLayout Margin="10">
+        
         <!-- Запрос города -->
         <StackLayout>
-            <Grid BackgroundColor="#DAEEF0" ColumnSpacing="6">
+            <Grid BackgroundColor="#DAEEF0">
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                     <RowDefinition Height="50"></RowDefinition>
@@ -28,22 +27,23 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="0.35*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-
-
-                <Entry Grid.Column="0" Grid.Row="0" x:Name="CityRequest" Placeholder="City"/>
-                <Button Grid.Column="1" Grid.Row="0" Clicked="Button_Clicked" Text="Хай"/>
+                <Entry Grid.Column="0" Grid.Row="0" x:Name="CityRequest"
+                       Placeholder="City"/>
+                <Button Grid.Column="1" Grid.Row="0" Clicked="Button_Clicked"
+                        Text="Search" BackgroundColor="#CACACA"/>
                 
             </Grid>
 
         </StackLayout>
         
         <!-- Hourly Scroll -->
-        <StackLayout>
+        <StackLayout Spacing="0">
             <ScrollView Orientation="Horizontal">
-                    <StackLayout>
-                    <Grid BackgroundColor="#D8F0F2">
+                    <StackLayout Spacing="0">
+                    <Grid BackgroundColor="#D8F0F2" ColumnSpacing="2" RowSpacing="0">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="100"></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"></ColumnDefinition>
@@ -51,24 +51,31 @@
                             <ColumnDefinition Width="100"></ColumnDefinition>
                             <ColumnDefinition Width="100"></ColumnDefinition>
                             <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
 
-                        <Label x:Name="labelHour1" Grid.Column="0" Text="123" ></Label>
+                        <Label x:Name="labelHour1" Grid.Row="0" Grid.Column="0" Text="date" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour2" Grid.Row="0" Grid.Column="1" Text="date" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour3" Grid.Row="0" Grid.Column="2" Text="date" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour4" Grid.Row="0" Grid.Column="3" Text="date" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour5" Grid.Row="0" Grid.Column="4" Text="date" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour6" Grid.Row="0" Grid.Column="5" Text="date" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
 
-                        <BoxView Grid.Column="1" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour2" Grid.Column="1" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour11" Grid.Row="1" Grid.Column="0" Text="icon" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour22" Grid.Row="1" Grid.Column="1" Text="icon" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour33" Grid.Row="1" Grid.Column="2" Text="icon" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour44" Grid.Row="1" Grid.Column="3" Text="icon" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour55" Grid.Row="1" Grid.Column="4" Text="icon" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour66" Grid.Row="1" Grid.Column="5" Text="icon" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        
+                        <Label x:Name="labelHour111" Grid.Row="2" Grid.Column="0" Text="temp" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour222" Grid.Row="2" Grid.Column="1" Text="temp" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour333" Grid.Row="2" Grid.Column="2" Text="temp" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour444" Grid.Row="2" Grid.Column="3" Text="temp" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour555" Grid.Row="2" Grid.Column="4" Text="temp" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour666" Grid.Row="2" Grid.Column="5" Text="temp" BackgroundColor="#cacaca" HorizontalTextAlignment="Center"></Label>
 
-                        <BoxView Grid.Column="2" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour3" Grid.Column="2" Text="123" HorizontalTextAlignment="Center"></Label>
 
-                        <BoxView Grid.Column="3" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour4" Grid.Column="3" Text="123" HorizontalTextAlignment="Center"></Label>
-
-                        <BoxView Grid.Column="4" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour5" Grid.Column="4" Text="123" HorizontalTextAlignment="Center"></Label>
-
-                        <BoxView Grid.Column="5" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour6" Grid.Column="5" Text="123" HorizontalTextAlignment="Center"></Label>
 
                     </Grid>
                 </StackLayout>
@@ -80,11 +87,80 @@
             
         </StackLayout>
 
-        
-        
-        
-        
-        
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Spacing="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <!-- Date -->
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <!-- Day -->
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <!-- Icon -->
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <!-- Temp -->
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" Text="02"></Label>
+                        <Label Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" Text="03"></Label>
+                        <Label Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" Text="day3"></Label>
+                        <Label Grid.Row="3" Grid.Column="0" VerticalTextAlignment="Center" Text="day4"></Label>
+                        <Label Grid.Row="4" Grid.Column="0" VerticalTextAlignment="Center" Text="day5"></Label>
+                        <Label Grid.Row="5" Grid.Column="0" VerticalTextAlignment="Center" Text="day6"></Label>
+                        <Label Grid.Row="6" Grid.Column="0" VerticalTextAlignment="Center" Text="day7"></Label>
+
+                        <Label Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="Понедельник"></Label>
+                        <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="Tuesday"></Label>
+                        <Label Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="day3"></Label>
+                        <Label Grid.Row="3" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="day4"></Label>
+                        <Label Grid.Row="4" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="day5"></Label>
+                        <Label Grid.Row="5" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="day6"></Label>
+                        <Label Grid.Row="6" Grid.Column="1" VerticalTextAlignment="Center" HorizontalOptions="Center" Text="day7"></Label>
+
+                        <Label Grid.Row="0" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="14 °C"></Label>
+                        <Label Grid.Row="1" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="13 °C"></Label>
+                        <Label Grid.Row="2" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="day3"></Label>
+                        <Label Grid.Row="3" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="day4"></Label>
+                        <Label Grid.Row="4" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="day5"></Label>
+                        <Label Grid.Row="5" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="day6"></Label>
+                        <Label Grid.Row="6" Grid.Column="3" VerticalTextAlignment="Center" HorizontalOptions="End" Text="day7"></Label>
+
+                        <Frame Grid.Column="2" Grid.Row="0" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Frame Grid.Column="2" Grid.Row="1" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Frame Grid.Column="2" Grid.Row="2" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Frame Grid.Column="2" Grid.Row="3" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Frame Grid.Column="2" Grid.Row="4" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Frame Grid.Column="2" Grid.Row="5" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Frame Grid.Column="2" Grid.Row="6" HorizontalOptions="End" BackgroundColor="#EDA743" CornerRadius="50"></Frame>
+                        <Image Grid.Row="0" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                        <Image Grid.Row="1" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                        <Image Grid.Row="2" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                        <Image Grid.Row="3" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                        <Image Grid.Row="4" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                        <Image Grid.Row="5" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                        <Image Grid.Row="6" Grid.Column="2" HorizontalOptions="End" Source="C:\Users\wafph\source\repos\WetUm\WetUm.Android\Resources\icons\sun.png"></Image>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+
+
+
+
+
+
         <Label x:Name="lable1"
             Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"

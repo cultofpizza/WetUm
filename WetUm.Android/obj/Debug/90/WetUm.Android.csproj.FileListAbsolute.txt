@@ -946,3 +946,4 @@ C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\flata\2DF74A0FC1A60
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\flata\F12A4671A8A65916.flata
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\flata\AA8A164702809C1D.flata
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\flata\EECE798E17808125.flata
+C:\Users\wafph\source\repos\WetUm\WetUm.Android\bin\Debug\Resources\icons\sun.png

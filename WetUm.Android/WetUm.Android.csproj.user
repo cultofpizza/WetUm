@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Xiaomi Redmi Note 4</SelectedDevice>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
+    <DefaultDevice>nexus_5x_pie_9_0_-_api_28</DefaultDevice>
   </PropertyGroup>
 </Project>
