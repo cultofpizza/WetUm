@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WetUm.MainPage">
-
+    <!-- Шаблоны -->
     <ContentPage.Resources>
         <ControlTemplate x:Key="HourlyItem">
             <Frame BackgroundColor="#cacaca" Margin="1">
@@ -53,23 +53,22 @@
                             <ColumnDefinition Width="100"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
 
-                        <BoxView Grid.Column="0" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour1" Grid.Column="0" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour1" Grid.Column="0" Text="123" ></Label>
 
                         <BoxView Grid.Column="1" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour1" Grid.Column="1" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour2" Grid.Column="1" Text="123" HorizontalTextAlignment="Center"></Label>
 
                         <BoxView Grid.Column="2" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour1" Grid.Column="2" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour3" Grid.Column="2" Text="123" HorizontalTextAlignment="Center"></Label>
 
                         <BoxView Grid.Column="3" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour1" Grid.Column="3" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour4" Grid.Column="3" Text="123" HorizontalTextAlignment="Center"></Label>
 
                         <BoxView Grid.Column="4" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour1" Grid.Column="4" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour5" Grid.Column="4" Text="123" HorizontalTextAlignment="Center"></Label>
 
                         <BoxView Grid.Column="5" BackgroundColor="#cacaca" Margin="1"/>
-                        <Label x:Name="labelHour1" Grid.Column="5" Text="123" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="labelHour6" Grid.Column="5" Text="123" HorizontalTextAlignment="Center"></Label>
 
                     </Grid>
                 </StackLayout>
