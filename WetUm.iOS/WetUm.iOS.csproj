@@ -132,4 +132,7 @@
       <Name>WetUm</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sun.png" />
+  </ItemGroup>
 </Project>
