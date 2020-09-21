@@ -122,6 +122,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
@@ -134,5 +137,71 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eclipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\humidity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snowy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunrise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tornado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\umbrella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search_.png" />
   </ItemGroup>
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TKoYCFCg679V7Vt69R88GsGkErnARMsiYHapPphXRU+cSdSIkqVVr4DmhgQVrWu6+ExfE1JRPCgM3PnZoQjR4w==",
+  "dgSpecHash": "7RjbrYrdtcPoAPvjKEOhrXQUmTlGDLC79WUAF9BwllkPTSF8JzyISXY8gRHgyp8yaaQWUt9Cp7YaR9VqtojjJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wafph\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\wafph\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
