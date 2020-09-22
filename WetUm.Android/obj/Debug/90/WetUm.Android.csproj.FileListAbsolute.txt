@@ -967,9 +967,8 @@ C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\sunris
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\sunset.png
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\tornado.png
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\umbrella.png
-C:\Users\wafph\source\repos\WetUm\WetUm.Android\bin\Debug\RGB.OneCallWeather.dll
-C:\Users\wafph\source\repos\WetUm\WetUm.Android\bin\Debug\RGB.OneCallWeather.xml
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\android\assets\RGB.OneCallWeather.dll
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\search.png
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\search_.png
+C:\Users\wafph\source\repos\WetUm\WetUm.Android\bin\Debug\RGB.OneCallWeather.dll

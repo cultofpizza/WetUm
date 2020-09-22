@@ -6,6 +6,34 @@
              mc:Ignorable="d"
              x:Class="WetUm.App">
     <Application.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="defaultLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+            </Style>
+            <Style x:Key="darkLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+            </Style>
+            <Style x:Key="lightLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+            </Style>
 
+            <Color x:Key="defaultBG">#FFFFFF</Color>
+            <Color x:Key="sunBG">#EEE8B5</Color>
+            <Color x:Key="cloudBG">#B5C6EE</Color>
+            <Color x:Key="rainBG">#D9D8D6</Color>
+            <Color x:Key="nightBG">#393F59</Color>
+            <Color x:Key="hazeBG">#F8F8FF</Color>
+
+
+
+
+        </ResourceDictionary>
+        <ResourceDictionary>
+            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

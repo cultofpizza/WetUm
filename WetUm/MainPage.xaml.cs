@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Essentials;
+using Newtonsoft.Json;
+using RGB.OneCallWeather;
 
 namespace WetUm
 {
@@ -21,8 +23,14 @@ namespace WetUm
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            App.Current.Resources["defaultLabel"] = App.Current.Resources["lightLabel"];
+            App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
+
             GetLocation();
+
         }
+
+
 
         public async void GetLocation()
         {
@@ -33,7 +41,7 @@ namespace WetUm
 
                 if (location != null)
                 {
-                    lable1.Text = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}";
+                    label1.Text = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}";
                 }
             }
             catch (FeatureNotSupportedException fnsEx)

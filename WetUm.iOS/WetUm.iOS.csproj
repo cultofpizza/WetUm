@@ -114,6 +114,9 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="RGB.OneCallWeather">
+      <HintPath>..\..\..\..\Desktop\RGB.OneCallWeather.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
