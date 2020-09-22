@@ -5,7 +5,6 @@ public class MonoPackageManager_Resources {
 		"WetUm.Android.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
-		"RGB.OneCallWeather.dll",
 		"WetUm.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

@@ -1974,24 +1974,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wafph\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Ogarok\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
       "projectName": "WetUm.Android",
-      "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
-      "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\obj\\",
+      "projectPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+      "packagesPath": "C:\\Users\\Ogarok\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ogarok\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2005,8 +2005,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
-              "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
+            "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
+              "projectPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
             }
           }
         }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj": {}
+    "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj": {
+    "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
         "projectName": "WetUm.Android",
-        "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
-        "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.Android\\obj\\",
+        "projectPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\WetUm.Android.csproj",
+        "packagesPath": "C:\\Users\\Ogarok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ogarok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
-                "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
+              "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
+                "projectPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
               }
             }
           }
@@ -58,20 +58,20 @@
         }
       }
     },
-    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
+    "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
+        "projectUniqueName": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
         "projectName": "WetUm",
-        "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
-        "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\obj\\",
+        "projectPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
+        "packagesPath": "C:\\Users\\Ogarok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ogarok\\source\\repos\\WetUm\\WetUm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ogarok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -125,7 +125,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

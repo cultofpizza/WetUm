@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RGB.OneCallWeather</name>
+    </assembly>
+    <members>
+        <member name="T:RGB.OneCallWeather.API">
+            <summary>
+            Класс API запросов
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.API.Key">
+            <summary>
+            API ключ
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.API.units">
+            <summary>
+            Единицы измерения
+            </summary>
+        </member>
+        <member name="M:RGB.OneCallWeather.API.GetJSON(System.String,System.String,System.String)">
+            <summary>
+            Возвращает JSON строку при заранее заданом API ключе
+            </summary>
+            <param name="lat">Широта</param>
+            <param name="lon">Долгота</param>
+            <param name="part">Исключённые разделы данных</param>
+            <returns>JSON</returns>
+        </member>
+        <member name="M:RGB.OneCallWeather.API.GetJSON(System.String,System.String)">
+            <summary>
+            Возвращает JSON строку при заранее заданом API ключе
+            </summary>
+            <param name="lat">Широта</param>
+            <param name="lon">Долгота</param>
+            <returns>JSON</returns>
+        </member>
+        <member name="M:RGB.OneCallWeather.API.GetJSON(System.String,System.String,System.String,System.String)">
+            <summary>
+            Возвращает JSON строку
+            </summary>
+            <param name="lat">Широта</param>
+            <param name="lon">Долгота</param>
+            <param name="part">Исключённые разделы данных</param>
+            <param name="ApiKey">Задаёт API ключ</param>
+            <returns>JSON</returns>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData">
+            <summary>
+            Класс для хранения погодных данных
+            </summary>
+        </member>
+        <member name="M:RGB.OneCallWeather.WeatherData.Parse(System.String)">
+            <summary>
+            Конвертирует JSON строку в WeatherData
+            </summary>
+            <param name="jsonData">Входная JSON строка</param>
+            <returns></returns>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Weather">
+            <summary>
+            Класс погодных условий
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Weather.id">
+            <summary>
+            Идентификационный номер погоды
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Weather.main">
+            <summary>
+            Группа погодных параметров
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Weather.description">
+            <summary>
+            Погодные условия
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Weather.icon">
+            <summary>
+            Идентификационный номер иконки
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Rain">
+            <summary>
+            Дождь
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Rain.lastHour">
+            <summary>
+            Количество выпавших осадков за последний час в миллиметрах
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Snow">
+            <summary>
+            Снег
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Snow.lastHour">
+            <summary>
+            Количество выпавших осадков за последний час в миллиметрах
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Current">
+            <summary>
+            Текущая погодная информация
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.dt">
+            <summary>
+            Текущее время
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.sunrise">
+            <summary>
+            Время восхода
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.sunset">
+            <summary>
+            Время заката
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.temp">
+            <summary>
+            Температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.feels_like">
+            <summary>
+            Температура по ощущениям
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.pressure">
+            <summary>
+            Атмосферное давление
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.humidity">
+            <summary>
+            Влажность
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.dew_point">
+            <summary>
+            Атмосферная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.uvi">
+            <summary>
+            Полуденный УФ-индекс
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.clouds">
+            <summary>
+            Облачность в процентах
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.visibility">
+            <summary>
+            Видимость
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.wind_speed">
+            <summary>
+            Скорость ветра
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.wind_gust">
+            <summary>
+            Порыв ветра
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.wind_deg">
+            <summary>
+            Направление ветра в градусах
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.weather">
+            <summary>
+            Погодные условия
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.rain">
+            <summary>
+            Дождь
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Current.snow">
+            <summary>
+            Снег
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Minutely">
+            <summary>
+            Поминутный прогноз
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Minutely.dt">
+            <summary>
+            Текущее время
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Minutely.precipitation">
+            <summary>
+            Количество осадков в миллиметрах
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Hourly">
+            <summary>
+            Почасовой прогноз
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.dt">
+            <summary>
+            Время
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.temp">
+            <summary>
+            Температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.feels_like">
+            <summary>
+            Температура по ощущениям
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.pressure">
+            <summary>
+            Атмосферное давление
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.humidity">
+            <summary>
+            Влажность
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.dew_point">
+            <summary>
+            Атмосферная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.clouds">
+            <summary>
+            Облачность в процентах
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.visibility">
+            <summary>
+            Видимость
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.wind_speed">
+            <summary>
+            Скорость ветра
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.wind_gust">
+            <summary>
+            Порыв ветра
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.wind_deg">
+            <summary>
+            Направление ветра в градусах
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.weather">
+            <summary>
+            Погодные условия
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.pop">
+            <summary>
+            Вероятность выпадения осадков
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.rain">
+            <summary>
+            Дождь
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Hourly.snow">
+            <summary>
+            Снег
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Temp">
+            <summary>
+            Температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Temp.day">
+            <summary>
+            Дневная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Temp.min">
+            <summary>
+            Минимальная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Temp.max">
+            <summary>
+            Максимальная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Temp.night">
+            <summary>
+            Ночная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Temp.eve">
+            <summary>
+            Вечерняя температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Temp.morn">
+            <summary>
+            Утренняя температура
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.FeelsLike">
+            <summary>
+            Температура по ощущениям
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.FeelsLike.day">
+            <summary>
+            Дневная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.FeelsLike.night">
+            <summary>
+            Ночная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.FeelsLike.eve">
+            <summary>
+            Вечерняя температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.FeelsLike.morn">
+            <summary>
+            Утренняя температура
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Daily">
+            <summary>
+            Ежедневный прогноз
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.dt">
+            <summary>
+            Текущее время
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.sunrise">
+            <summary>
+            Время восхода
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.sunset">
+            <summary>
+            Время заката
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.temp">
+            <summary>
+            Температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.feels_like">
+            <summary>
+            Температура по ощущениям
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.pressure">
+            <summary>
+            Атмосферное давление
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.humidity">
+            <summary>
+            Влажность
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.dew_point">
+            <summary>
+            Атмосферная температура
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.wind_speed">
+            <summary>
+            Скорость ветра
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.wind_gust">
+            <summary>
+            Порыв ветра
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.wind_deg">
+            <summary>
+            Направление ветра в градусах
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.weather">
+            <summary>
+            Погодные условия
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.clouds">
+            <summary>
+            Облачность в процентах
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.pop">
+            <summary>
+            Вероятность выпадения осадков
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.rain">
+            <summary>
+            Дождь
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.snow">
+            <summary>
+            Снег
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.uvi">
+            <summary>
+            Полуденный УФ-индекс
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Daily.visibility">
+            <summary>
+            Видимость
+            </summary>
+        </member>
+        <member name="T:RGB.OneCallWeather.WeatherData.Root">
+            <summary>
+            Корень класса
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.lat">
+            <summary>
+            Ширина
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.lon">
+            <summary>
+            Долгота
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.timezone">
+            <summary>
+            Часовой пояс
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.timezone_offset">
+            <summary>
+            Сдвиг в секундах от UTC
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.current">
+            <summary>
+            Текущий прогноз погоды
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.minutely">
+            <summary>
+            Поминутный прогноз погоды
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.hourly">
+            <summary>
+            Почасовой прогноз погоды
+            </summary>
+        </member>
+        <member name="P:RGB.OneCallWeather.WeatherData.Root.daily">
+            <summary>
+            Ежедневный прогноз погоды
+            </summary>
+        </member>
+    </members>
+</doc>

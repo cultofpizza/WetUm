@@ -32,7 +32,8 @@
 
   <ItemGroup>
     <Reference Include="RGB.OneCallWeather">
-      <HintPath>..\..\..\..\Desktop\RGB.OneCallWeather.dll</HintPath>
+      <HintPath>D:\Documents\Libraries\RGB.OneCallWeather.dll</HintPath>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
     </Reference>
   </ItemGroup>
 </Project>
