@@ -10,8 +10,10 @@
       "WetUm/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.908675"
+          "Xamarin.Forms": "4.3.0.908675",
+          "RGB.OneCallWeather": "1.0.0.0"
         },
         "runtime": {
           "WetUm.dll": {}
@@ -21,6 +23,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -57,6 +67,14 @@
             "fileVersion": "4.3.0.336"
           }
         }
+      },
+      "RGB.OneCallWeather/1.0.0.0": {
+        "runtime": {
+          "RGB.OneCallWeather.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -80,6 +98,13 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -100,6 +125,11 @@
       "sha512": "sha512-kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
       "path": "xamarin.forms/4.3.0.908675",
       "hashPath": "xamarin.forms.4.3.0.908675.nupkg.sha512"
+    },
+    "RGB.OneCallWeather/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

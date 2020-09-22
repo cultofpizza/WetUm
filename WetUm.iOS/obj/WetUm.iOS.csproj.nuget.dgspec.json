@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj": {}
+    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj": {
+    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
         "projectName": "WetUm.iOS",
-        "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
-        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\obj\\",
+        "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
+        "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {
-                "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj"
+              "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
+                "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -65,21 +69,20 @@
         }
       }
     },
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {
+    "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj",
+        "projectUniqueName": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
         "projectName": "WetUm",
-        "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj",
-        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\obj\\",
+        "projectPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\WetUm.csproj",
+        "packagesPath": "C:\\Users\\wafph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wafph\\source\\repos\\WetUm\\WetUm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wafph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -110,6 +113,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -129,7 +136,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

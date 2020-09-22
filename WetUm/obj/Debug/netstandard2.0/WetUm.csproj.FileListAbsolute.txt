@@ -24,3 +24,19 @@ C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstan
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.dll
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\ref\WetUm.dll
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.pdb
+C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.deps.json
+C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.dll
+C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\ref\WetUm.dll
+C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.pdb
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csprojAssemblyReference.cache
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfoInputs.cache
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfo.cs
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.dll
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\ref\WetUm.dll
+C:\Users\wafph\Source\Repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.pdb
+C:\Users\wafph\source\repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csproj.CoreCompileInputs.cache
+C:\Users\wafph\source\repos\WetUm\WetUm\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\wafph\source\repos\WetUm\WetUm\bin\Debug\netstandard2.0\RGB.OneCallWeather.dll
+C:\Users\wafph\source\repos\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csproj.CopyComplete
