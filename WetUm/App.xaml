@@ -29,66 +29,87 @@
             <Color x:Key="hazeBG">#F8F8FF</Color>
 
             <ImageSource x:Key="cloud">cloud.png</ImageSource>
+            <ImageSource x:Key="cloud_dark">cloud.png</ImageSource>
             <ImageSource x:Key="cloud_light">cloud_light.png</ImageSource>
 
             <ImageSource x:Key="cloudy">cloudy.png</ImageSource>
+            <ImageSource x:Key="cloudy_dark">cloudy.png</ImageSource>
             <ImageSource x:Key="cloudy_light">cloudy_light.png</ImageSource>
 
             <ImageSource x:Key="cloudy_day">cloudy_day.png</ImageSource>
+            <ImageSource x:Key="cloudy_day_dark">cloudy_day.png</ImageSource>
             <ImageSource x:Key="cloudy_day_light">cloudy_day_light.png</ImageSource>
 
             <ImageSource x:Key="cloudy_night">cloud_night.png</ImageSource>
+            <ImageSource x:Key="cloudy_night_dark">cloud_night.png</ImageSource>
             <ImageSource x:Key="cloudy_night_light">cloudy_night_light.png</ImageSource>
 
             <ImageSource x:Key="cold">cold.png</ImageSource>
+            <ImageSource x:Key="cold_dark">cold.png</ImageSource>
             <ImageSource x:Key="cold_light">cold_light.png</ImageSource>
 
             <ImageSource x:Key="eclipse">eclipse.png</ImageSource>
+            <ImageSource x:Key="eclipse_dark">eclipse.png</ImageSource>
             <ImageSource x:Key="eclipse_light">eclipse_light.png</ImageSource>
 
             <ImageSource x:Key="hot">hot.png</ImageSource>
+            <ImageSource x:Key="hot_dark">hot.png</ImageSource>
             <ImageSource x:Key="hot_light">hot_light.png</ImageSource>
 
             <ImageSource x:Key="humidity">humidity.png</ImageSource>
+            <ImageSource x:Key="humidity_dark">humidity.png</ImageSource>
             <ImageSource x:Key="humidity_light">humidity_light.png</ImageSource>
 
             <ImageSource x:Key="mist">mist.png</ImageSource>
+            <ImageSource x:Key="mist_dark">mist.png</ImageSource>
             <ImageSource x:Key="mist_light">mist_light.png</ImageSource>
 
             <ImageSource x:Key="night">night.png</ImageSource>
+            <ImageSource x:Key="night_dark">night.png</ImageSource>
             <ImageSource x:Key="night_light">night_light.png</ImageSource>
 
             <ImageSource x:Key="rain">rain.png</ImageSource>
+            <ImageSource x:Key="rain_dark">rain.png</ImageSource>
             <ImageSource x:Key="rain_light">rain_light.png</ImageSource>
 
             <ImageSource x:Key="rainbow">rainbow.png</ImageSource>
+            <ImageSource x:Key="rainbow_dark">rainbow.png</ImageSource>
             <ImageSource x:Key="rainbow_light">rainbow_light.png</ImageSource>
 
             <ImageSource x:Key="rainy">rainy.png</ImageSource>
+            <ImageSource x:Key="rainy_dark">rainy.png</ImageSource>
             <ImageSource x:Key="rainy_light">rainy_light.png</ImageSource>
 
             <ImageSource x:Key="snow">snow.png</ImageSource>
+            <ImageSource x:Key="snow_dark">snow.png</ImageSource>
             <ImageSource x:Key="snow_light">snow_light.png</ImageSource>
 
             <ImageSource x:Key="snowy">snowy.png</ImageSource>
+            <ImageSource x:Key="snowy_dark">snowy.png</ImageSource>
             <ImageSource x:Key="snowy_light">snowy_light.png</ImageSource>
 
             <ImageSource x:Key="sun">sun.png</ImageSource>
+            <ImageSource x:Key="sun_dark">sun.png</ImageSource>
             <ImageSource x:Key="sun_light">sun_light.png</ImageSource>
 
             <ImageSource x:Key="sunrise">sunrise.png</ImageSource>
+            <ImageSource x:Key="sunrise_dark">sunrise.png</ImageSource>
             <ImageSource x:Key="sunrise_light">sunrise_light.png</ImageSource>
 
             <ImageSource x:Key="sunset">sunset.png</ImageSource>
+            <ImageSource x:Key="sunset_dark">sunset.png</ImageSource>
             <ImageSource x:Key="sunset_light">sunset_light.png</ImageSource>
 
             <ImageSource x:Key="thunder">thunder.png</ImageSource>
+            <ImageSource x:Key="thunder_dark">thunder.png</ImageSource>
             <ImageSource x:Key="thunder_light">thunder_light.png</ImageSource>
 
             <ImageSource x:Key="tornado">tornado.png</ImageSource>
+            <ImageSource x:Key="tornado_dark">tornado.png</ImageSource>
             <ImageSource x:Key="tornado_light">tornado_light.png</ImageSource>
 
             <ImageSource x:Key="umbrella">umbrella.png</ImageSource>
+            <ImageSource x:Key="umbrella_dark">umbrella.png</ImageSource>
             <ImageSource x:Key="umbrella_light">umbrella_light.png</ImageSource>
 
         </ResourceDictionary>

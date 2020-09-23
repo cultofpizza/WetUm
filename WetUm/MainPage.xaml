@@ -22,8 +22,7 @@
                 </Grid.ColumnDefinitions>
                 <Entry Grid.Column="0" Grid.Row="0" x:Name="CityRequest"
                        Placeholder="City"/>
-                <Button Grid.Column="1" Grid.Row="0" Clicked="Button_Clicked"
-                         />
+                <Button Grid.Column="1" Grid.Row="0" Clicked="Button_Clicked"/>
             </Grid>
         </StackLayout>
 
@@ -188,7 +187,10 @@
         </StackLayout>
 
         <StackLayout BackgroundColor="{DynamicResource defaultBG}" HeightRequest="1" ></StackLayout>
-
+        <StackLayout Orientation="Horizontal">
+            <Button Text="dark" Clicked="Dark_Clicked"></Button>
+            <Button Text="light" Clicked="Light_Clicked"></Button>
+        </StackLayout>
         <!-- Footer -->
         <StackLayout BackgroundColor="#FFFFFF" VerticalOptions="EndAndExpand" Padding="10,5,10,5">
             <Label x:Name="label1"
