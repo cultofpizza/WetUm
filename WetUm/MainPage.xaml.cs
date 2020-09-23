@@ -23,14 +23,60 @@ namespace WetUm
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            App.Current.Resources["defaultLabel"] = App.Current.Resources["lightLabel"];
-            App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
-
             GetLocation();
-
+            SetDarkTheme();
         }
 
-
+        public void SetDarkTheme()
+        {
+            App.Current.Resources["defaultLabel"] = App.Current.Resources["lightLabel"];
+            App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
+            App.Current.Resources["cloud"] = App.Current.Resources["cloud_light"];
+            App.Current.Resources["cloudy"] = App.Current.Resources["cloudy_light"];
+            App.Current.Resources["cloudy_day"] = App.Current.Resources["cloudy_day_light"];
+            App.Current.Resources["cloudy_night"] = App.Current.Resources["cloudy_night_light"];
+            App.Current.Resources["cold"] = App.Current.Resources["cold_light"];
+            App.Current.Resources["eclipse"] = App.Current.Resources["eclipse_light"];
+            App.Current.Resources["hot"] = App.Current.Resources["hot_light"];
+            App.Current.Resources["humidity"] = App.Current.Resources["humidity_light"];
+            App.Current.Resources["mist"] = App.Current.Resources["mist_light"];
+            App.Current.Resources["rain"] = App.Current.Resources["rain_light"];
+            App.Current.Resources["rainbow"] = App.Current.Resources["rainbow_light"];
+            App.Current.Resources["rainy"] = App.Current.Resources["rainy_light"];
+            App.Current.Resources["snow"] = App.Current.Resources["snow_light"];
+            App.Current.Resources["snowy"] = App.Current.Resources["snowy_light"];
+            App.Current.Resources["sun"] = App.Current.Resources["sun_light"];
+            App.Current.Resources["sunrise"] = App.Current.Resources["sunrise_light"];
+            App.Current.Resources["sunset"] = App.Current.Resources["sunset_light"];
+            App.Current.Resources["thunder"] = App.Current.Resources["thunder_light"];
+            App.Current.Resources["tornado"] = App.Current.Resources["tornado_light"];
+            App.Current.Resources["umbrella"] = App.Current.Resources["umbrella_light"];
+        }
+        public void SetLightTheme()
+        {
+            App.Current.Resources["lightLabel"] = App.Current.Resources["defaultBG"];
+            App.Current.Resources["nightBG"] = App.Current.Resources["defaultBG"];
+            App.Current.Resources["cloud_light"] = App.Current.Resources["cloud"];
+            App.Current.Resources["cloudy_light"] = App.Current.Resources["cloudy"];
+            App.Current.Resources["cloudy_day_light"] = App.Current.Resources["cloudy_day"];
+            App.Current.Resources["cloudy_night_light"] = App.Current.Resources["cloudy_night"];
+            App.Current.Resources["cold_light"] = App.Current.Resources["cold"];
+            App.Current.Resources["eclipse_light"] = App.Current.Resources["eclipse"];
+            App.Current.Resources["hot_light"] = App.Current.Resources["hot"];
+            App.Current.Resources["humidity_light"] = App.Current.Resources["humidity"];
+            App.Current.Resources["mist_light"] = App.Current.Resources["mist"];
+            App.Current.Resources["rain_light"] = App.Current.Resources["rain"];
+            App.Current.Resources["rainbow_light"] = App.Current.Resources["rainbow"];
+            App.Current.Resources["rainy_light"] = App.Current.Resources["rainy"];
+            App.Current.Resources["snow_light"] = App.Current.Resources["snow"];
+            App.Current.Resources["snowy_light"] = App.Current.Resources["snowy"];
+            App.Current.Resources["sun_light"] = App.Current.Resources["sun"];
+            App.Current.Resources["sunrise_light"] = App.Current.Resources["sunrise"];
+            App.Current.Resources["sunset_light"] = App.Current.Resources["sunset"];
+            App.Current.Resources["thunder_light"] = App.Current.Resources["thunder"];
+            App.Current.Resources["tornado_light"] = App.Current.Resources["tornado"];
+            App.Current.Resources["umbrella_light"] = App.Current.Resources["umbrella"];
+        }
 
         public async void GetLocation()
         {

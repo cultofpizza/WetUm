@@ -207,4 +207,67 @@
   <ItemGroup>
     <BundleResource Include="Resources\search_.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\humidity_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mist_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\night_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rain_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainbow_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainy_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snow_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snowy_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sun_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunrise_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunset_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thunder_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tornado_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\umbrella_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloud_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_day_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_night_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cold_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eclipse_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hot_light.png" />
+  </ItemGroup>
 </Project>
