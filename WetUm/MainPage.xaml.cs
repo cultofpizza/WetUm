@@ -20,6 +20,8 @@ namespace WetUm
         {
             InitializeComponent();
             SetLightTheme();
+            App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
+            App.Current.Resources["defaultBG"] = App.Current.Resources["sunBG"];
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
@@ -37,7 +39,6 @@ namespace WetUm
         public void SetDarkTheme()
         {
             App.Current.Resources["defaultLabel"] = App.Current.Resources["lightLabel"];
-            App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
             App.Current.Resources["cloud"] = App.Current.Resources["cloud_light"];
             App.Current.Resources["cloudy"] = App.Current.Resources["cloudy_light"];
             App.Current.Resources["cloudy_day"] = App.Current.Resources["cloudy_day_light"];
@@ -62,7 +63,6 @@ namespace WetUm
         public void SetLightTheme()
         {
             App.Current.Resources["defaultLabel"] = App.Current.Resources["darkLabel"];
-            App.Current.Resources["defaultBG"] = App.Current.Resources["sunBG"];
             App.Current.Resources["cloud"] = App.Current.Resources["cloud_dark"];
             App.Current.Resources["cloudy"] = App.Current.Resources["cloudy_dark"];
             App.Current.Resources["cloudy_day"] = App.Current.Resources["cloudy_day_dark"];

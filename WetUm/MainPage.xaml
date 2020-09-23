@@ -7,7 +7,7 @@
              x:Class="WetUm.MainPage">
 
     <!-- APP -->
-    <StackLayout BackgroundColor="{DynamicResource defaultBG}" VerticalOptions="Fill">
+    <StackLayout BackgroundColor="{DynamicResource defaultBG}" VerticalOptions="Fill" Spacing="0">
 
 
         <!-- Запрос города -->
@@ -27,7 +27,7 @@
         </StackLayout>
 
         <!-- Current Section -->
-        <StackLayout BackgroundColor="{DynamicResource defaultBG}" Spacing="0" Padding="10,5,10,5">
+        <StackLayout BackgroundColor="{DynamicResource defaultBG}" Spacing="0" Padding="10,5,10,5" HeightRequest="300">
             <Grid RowSpacing="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"></RowDefinition>
@@ -53,7 +53,7 @@
         <StackLayout BackgroundColor="{DynamicResource defaultBG}" HeightRequest="1"></StackLayout>
 
         <!-- Hourly Scroll Section-->
-        <StackLayout BackgroundColor="{DynamicResource defaultBG}" Spacing="0" Margin="0,5,0,5">
+        <StackLayout BackgroundColor="{DynamicResource defaultBG}" Spacing="0" Margin="0,5,0,5" MinimumHeightRequest="100" HeightRequest="100">
             <ScrollView Orientation="Horizontal" Padding="0" HorizontalScrollBarVisibility="Never">
                 <StackLayout BackgroundColor="{DynamicResource defaultBG}" Spacing="0">
                     <Grid ColumnSpacing="6" RowSpacing="0">
@@ -126,71 +126,78 @@
         </StackLayout>
         <StackLayout BackgroundColor="{DynamicResource defaultBG}" HeightRequest="1"></StackLayout>
 
+        <StackLayout BackgroundColor="White" HeightRequest="1" ></StackLayout>
         <!-- Daily Section -->
-        <StackLayout BackgroundColor="{DynamicResource defaultBG}" Padding="10,5,10,5" Spacing="0">
+        <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Default" VerticalOptions="Start">
+            <StackLayout BackgroundColor="{DynamicResource defaultBG}" Padding="10,5,10,5" Spacing="0" VerticalOptions="Start" >
 
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="24"></RowDefinition>
-                    <RowDefinition Height="24"></RowDefinition>
-                    <RowDefinition Height="24"></RowDefinition>
-                    <RowDefinition Height="24"></RowDefinition>
-                    <RowDefinition Height="24"></RowDefinition>
-                    <RowDefinition Height="24"></RowDefinition>
-                    <RowDefinition Height="24"></RowDefinition>
-                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="24"></RowDefinition>
+                        <RowDefinition Height="24"></RowDefinition>
+                        <RowDefinition Height="24"></RowDefinition>
+                        <RowDefinition Height="24"></RowDefinition>
+                        <RowDefinition Height="24"></RowDefinition>
+                        <RowDefinition Height="24"></RowDefinition>
+                        <RowDefinition Height="24"></RowDefinition>
+                    </Grid.RowDefinitions>
 
-                <Grid.ColumnDefinitions>
-                    <!-- Date -->
-                    <ColumnDefinition Width="30"></ColumnDefinition>
-                    <!-- Day -->
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <!-- Icon -->
-                    <ColumnDefinition Width="20"></ColumnDefinition>
-                    <!-- Temp -->
-                    <ColumnDefinition Width="100"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <!-- Date -->
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <!-- Day -->
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <!-- Icon -->
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <!-- Temp -->
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate1" Grid.Row="0" Grid.Column="0" Text="02"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate2" Grid.Row="1" Grid.Column="0" Text="03"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate3" Grid.Row="2" Grid.Column="0" Text="day3"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate4" Grid.Row="3" Grid.Column="0" Text="day4"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate5" Grid.Row="4" Grid.Column="0" Text="day5"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate6" Grid.Row="5" Grid.Column="0" Text="day6"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate7" Grid.Row="6" Grid.Column="0" Text="day7"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate1" Grid.Row="0" Grid.Column="0" Text="02"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate2" Grid.Row="1" Grid.Column="0" Text="03"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate3" Grid.Row="2" Grid.Column="0" Text="day3"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate4" Grid.Row="3" Grid.Column="0" Text="day4"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate5" Grid.Row="4" Grid.Column="0" Text="day5"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate6" Grid.Row="5" Grid.Column="0" Text="day6"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayDate7" Grid.Row="6" Grid.Column="0" Text="day7"></Label>
 
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay1" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" Text="Понедельник"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay2" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Text="Tuesday"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay3" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" Text="day3"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay4" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" Text="day4"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay5" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center" Text="day5"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay6" Grid.Row="5" Grid.Column="1" HorizontalOptions="Center" Text="day6"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay7" Grid.Row="6" Grid.Column="1" HorizontalOptions="Center" Text="day7"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay1" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" Text="Понедельник"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay2" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Text="Tuesday"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay3" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" Text="day3"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay4" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" Text="day4"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay5" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center" Text="day5"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay6" Grid.Row="5" Grid.Column="1" HorizontalOptions="Center" Text="day6"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDay7" Grid.Row="6" Grid.Column="1" HorizontalOptions="Center" Text="day7"></Label>
 
-                <Image Source="{DynamicResource rain}" x:Name="iconDay1" Grid.Row="0" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
-                <Image Source="{DynamicResource snow}" x:Name="iconDay2" Grid.Row="1" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
-                <Image Source="{DynamicResource mist}" x:Name="iconDay3" Grid.Row="2" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
-                <Image Source="{DynamicResource cloud}" x:Name="iconDay4" Grid.Row="3" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
-                <Image Source="{DynamicResource thunder}" x:Name="iconDay5" Grid.Row="4" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
-                <Image Source="{DynamicResource umbrella}" x:Name="iconDay6" Grid.Row="5" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
-                <Image Source="{DynamicResource sun}" x:Name="iconDay7" Grid.Row="6" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource rain}" x:Name="iconDay1" Grid.Row="0" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource snow}" x:Name="iconDay2" Grid.Row="1" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource mist}" x:Name="iconDay3" Grid.Row="2" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource cloud}" x:Name="iconDay4" Grid.Row="3" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource thunder}" x:Name="iconDay5" Grid.Row="4" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource umbrella}" x:Name="iconDay6" Grid.Row="5" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
+                    <Image Source="{DynamicResource sun}" x:Name="iconDay7" Grid.Row="6" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End" ></Image>
 
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp1" Grid.Row="0" Grid.Column="3" HorizontalOptions="End" Text="14 °C"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp2" Grid.Row="1" Grid.Column="3" HorizontalOptions="End" Text="13 °C"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp3" Grid.Row="2" Grid.Column="3" HorizontalOptions="End" Text="day3"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp4" Grid.Row="3" Grid.Column="3" HorizontalOptions="End" Text="day4"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp5" Grid.Row="4" Grid.Column="3" HorizontalOptions="End" Text="day5"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp6" Grid.Row="5" Grid.Column="3" HorizontalOptions="End" Text="day6"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp7" Grid.Row="6" Grid.Column="3" HorizontalOptions="End" Text="day7"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp1" Grid.Row="0" Grid.Column="3" HorizontalOptions="End" Text="14 °C"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp2" Grid.Row="1" Grid.Column="3" HorizontalOptions="End" Text="13 °C"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp3" Grid.Row="2" Grid.Column="3" HorizontalOptions="End" Text="day3"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp4" Grid.Row="3" Grid.Column="3" HorizontalOptions="End" Text="day4"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp5" Grid.Row="4" Grid.Column="3" HorizontalOptions="End" Text="day5"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp6" Grid.Row="5" Grid.Column="3" HorizontalOptions="End" Text="day6"></Label>
+                    <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp7" Grid.Row="6" Grid.Column="3" HorizontalOptions="End" Text="day7"></Label>
 
-            </Grid>
-        </StackLayout>
+                </Grid>
+                <Label Text="aaa" FontSize="30" Padding="0,30,0,0"></Label>
+                <Label Text="aaa" FontSize="30"></Label>
+                <Label Text="aaa" FontSize="30"></Label>
+                <Label Text="aaa" FontSize="30"></Label>
+                <Label Text="aaa" FontSize="30"></Label>
+                <Label Text="aaa" FontSize="30"></Label>
+            </StackLayout>
+        </ScrollView>
+        
 
-        <StackLayout BackgroundColor="{DynamicResource defaultBG}" HeightRequest="1" ></StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Button Text="dark" Clicked="Dark_Clicked"></Button>
-            <Button Text="light" Clicked="Light_Clicked"></Button>
-        </StackLayout>
+        <StackLayout BackgroundColor="White" HeightRequest="1" ></StackLayout>
+
         <!-- Footer -->
         <StackLayout BackgroundColor="#FFFFFF" VerticalOptions="EndAndExpand" Padding="10,5,10,5">
             <Label x:Name="label1"
