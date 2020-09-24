@@ -21,13 +21,26 @@ namespace WetUm
             InitializeComponent();
             SetLightTheme();
             App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
-            App.Current.Resources["defaultBG"] = App.Current.Resources["sunBG"];
+            App.Current.Resources["defaultBG"] = App.Current.Resources["cloudBG"];
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
         {
-            GetLocation();
+            HourlyScrollLayout.TranslationY = -dailyScroll.ScrollY / 3.5;
+            dailyScroll.TranslationY = -dailyScroll.ScrollY / 3.5;
+            dailyBorderTop.TranslationY = -dailyScroll.ScrollY / 3.5;
+            dailyBorderBottom.TranslationY = -dailyScroll.ScrollY / 3.5;
+
+            labelCurrentInfo.Opacity = 1 + dailyScroll.TranslationY/45;
+            labelCurrentDescription.Opacity = 1 + dailyScroll.TranslationY/45;
         }
+
+        void Button_Clicked(object sender, EventArgs e)
+        {
+            label1.Text = dailyScroll.Height.ToString();
+            label2.Text = dailyScroll.TranslationY.ToString();
+        }
+
         void Dark_Clicked(object sender, EventArgs e)
         {
             SetDarkTheme();
@@ -36,6 +49,7 @@ namespace WetUm
         {
             SetLightTheme();
         }
+
         public void SetDarkTheme()
         {
             App.Current.Resources["defaultLabel"] = App.Current.Resources["lightLabel"];
@@ -91,11 +105,15 @@ namespace WetUm
             {
                 var request = new GeolocationRequest(GeolocationAccuracy.Medium);
                 var location = await Geolocation.GetLocationAsync(request);
-
                 if (location != null)
                 {
                     label1.Text = $"Latitude: {location.Latitude}, Longitude: {location.Longitude}";
                 }
+                else
+                {
+
+                }
+
             }
             catch (FeatureNotSupportedException fnsEx)
             {
@@ -105,6 +123,7 @@ namespace WetUm
             catch (FeatureNotEnabledException fneEx)
             {
                 // Handle not enabled on device exception
+                Console.WriteLine("ошибОЧКА: " + fneEx);
             }
             catch (PermissionException pEx)
             {
