@@ -114,6 +114,9 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="RGB.OneCallWeather">
+      <HintPath>..\..\..\..\Desktop\RGB.OneCallWeather.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -134,5 +137,137 @@
       <Project>{FD6C3783-2C1D-4393-BD07-E0ADCD7CD776}</Project>
       <Name>WetUm</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eclipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\humidity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snowy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunrise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tornado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\umbrella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\humidity_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mist_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\night_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rain_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainbow_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rainy_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snow_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snowy_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sun_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunrise_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sunset_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thunder_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tornado_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\umbrella_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloud_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_day_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudy_night_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cold_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eclipse_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hot_light.png" />
   </ItemGroup>
 </Project>
