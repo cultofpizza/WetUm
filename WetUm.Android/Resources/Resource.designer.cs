@@ -5865,64 +5865,58 @@ namespace WetUm.Droid
 			public const int rain_light = 2131165321;
 			
 			// aapt resource value: 0x7F07008E
-			public const int search = 2131165326;
-			
-			// aapt resource value: 0x7F07008F
-			public const int search_ = 2131165327;
+			public const int snow = 2131165326;
 			
 			// aapt resource value: 0x7F070090
-			public const int snow = 2131165328;
-			
-			// aapt resource value: 0x7F070092
-			public const int snowy = 2131165330;
-			
-			// aapt resource value: 0x7F070093
-			public const int snowy_light = 2131165331;
+			public const int snowy = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int snow_light = 2131165329;
+			public const int snowy_light = 2131165329;
+			
+			// aapt resource value: 0x7F07008F
+			public const int snow_light = 2131165327;
+			
+			// aapt resource value: 0x7F070092
+			public const int sun = 2131165330;
 			
 			// aapt resource value: 0x7F070094
-			public const int sun = 2131165332;
-			
-			// aapt resource value: 0x7F070096
-			public const int sunrise = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int sunrise_light = 2131165335;
-			
-			// aapt resource value: 0x7F070098
-			public const int sunset = 2131165336;
-			
-			// aapt resource value: 0x7F070099
-			public const int sunset_light = 2131165337;
+			public const int sunrise = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int sun_light = 2131165333;
+			public const int sunrise_light = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int sunset = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int sunset_light = 2131165335;
+			
+			// aapt resource value: 0x7F070093
+			public const int sun_light = 2131165331;
+			
+			// aapt resource value: 0x7F070098
+			public const int thunder = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int thunder_light = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int thunder = 2131165338;
+			public const int tooltip_frame_dark = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int thunder_light = 2131165339;
+			public const int tooltip_frame_light = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int tooltip_frame_dark = 2131165340;
+			public const int tornado = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int tooltip_frame_light = 2131165341;
+			public const int tornado_light = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int tornado = 2131165342;
+			public const int umbrella = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int tornado_light = 2131165343;
-			
-			// aapt resource value: 0x7F0700A0
-			public const int umbrella = 2131165344;
-			
-			// aapt resource value: 0x7F0700A1
-			public const int umbrella_light = 2131165345;
+			public const int umbrella_light = 2131165343;
 			
 			static Drawable()
 			{

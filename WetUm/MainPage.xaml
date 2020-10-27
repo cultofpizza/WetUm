@@ -33,7 +33,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"></RowDefinition>
                     <RowDefinition Height="30"></RowDefinition>
-                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="70"></RowDefinition>
                     <RowDefinition x:Name="suka" Height="110"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>

@@ -969,8 +969,6 @@ C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\tornad
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\umbrella.png
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\android\assets\RGB.OneCallWeather.dll
-C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\search.png
-C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\search_.png
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\bin\Debug\RGB.OneCallWeather.dll
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\humidity_light.png
 C:\Users\wafph\source\repos\WetUm\WetUm.Android\obj\Debug\90\res\drawable\mist_light.png

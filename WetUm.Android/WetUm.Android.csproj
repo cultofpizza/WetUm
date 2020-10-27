@@ -163,12 +163,6 @@
     <AndroidResource Include="Resources\drawable\umbrella.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\search.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\search_.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\humidity_light.png" />
   </ItemGroup>
   <ItemGroup>
