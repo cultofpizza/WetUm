@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:WetUm"
              mc:Ignorable="d"
              x:Class="WetUm.App">
     <Application.Resources>
@@ -31,9 +32,15 @@
             <Color x:Key="hazeBG">#F8F8FF</Color>
             
             <!-- Icons -->
-            <ImageSource x:Key="cloud">cloud.png</ImageSource>
+
+            <ImageSource x:Key="cloud" >cloud.png</ImageSource>
+            <!--<Image x:Key="cloud" Source="{local:ImageResource EmbeddedImages.Images.cloud.png}"></Image>-->
+
             <ImageSource x:Key="cloud_dark">cloud.png</ImageSource>
+            <!--<Image x:Key="cloud_dark" Source="{local:ImageResource EmbeddedImages.Images.cloud.png}"></Image>-->
+            
             <ImageSource x:Key="cloud_light">cloud_light.png</ImageSource>
+            <!--<Image x:Key="cloud_light" Source="{local:ImageResource EmbeddedImages.Images.cloud_light.png}"></Image>-->
 
             <ImageSource x:Key="cloudy">cloudy.png</ImageSource>
             <ImageSource x:Key="cloudy_dark">cloudy.png</ImageSource>

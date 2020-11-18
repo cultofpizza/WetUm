@@ -15,6 +15,8 @@ namespace WetUm
 
         protected override void OnStart()
         {
+            //var a = new FindLocation();
+            //a.GetLocation();
         }
 
         protected override void OnSleep()

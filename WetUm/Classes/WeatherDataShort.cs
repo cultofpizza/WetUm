@@ -168,7 +168,7 @@ namespace WetUm
         /// <summary>
         /// Почасовой прогноз
         /// </summary>
-        public class Hourly
+        public class Hourly : Notifier
         {
             /// <summary>
             /// Время
@@ -177,7 +177,16 @@ namespace WetUm
             /// <summary>
             /// Температура
             /// </summary>
-            public double temp { get; set; }
+            double temp;
+            public double Temp
+            {
+                get => temp;
+                set
+                {
+                    temp = value;
+                    Notify(nameof(Temp));
+                }
+            }
             /// <summary>
             /// Температура по ощущениям
             /// </summary>
@@ -235,12 +244,21 @@ namespace WetUm
         /// <summary>
         /// Температура
         /// </summary>
-        public class Temp
+        public class Temp : Notifier
         {
+            double day;
             /// <summary>
             /// Дневная температура
             /// </summary>
-            public double day { get; set; }
+            public double Day
+            {
+                get => day;
+                set
+                {
+                    day = value;
+                    Notify(nameof(Day));
+                }
+            }
             /// <summary>
             /// Минимальная температура
             /// </summary>
@@ -403,6 +421,10 @@ namespace WetUm
             /// Ежедневный прогноз погоды
             /// </summary>
             public List<Daily> daily { get; set; }
+            /// <summary>
+            /// Регион
+            /// </summary>
+            public string Region { get; set; }
         }
     }
 }

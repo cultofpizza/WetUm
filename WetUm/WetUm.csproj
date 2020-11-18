@@ -12,16 +12,14 @@
 
   <ItemGroup>
     <None Remove="cloud.png" />
+    <None Remove="Images\cloud.png" />
     <None Remove="search.png" />
     <None Remove="sun.png" />
     <None Remove="thunder.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="cloud.png" />
-    <Content Include="search.png" />
-    <Content Include="sun.png" />
-    <Content Include="thunder.png" />
+    <EmbeddedResource Include="Images\cloud.png" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1094,11 +1094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm.iOS\\WetUm.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
       "projectName": "WetUm.iOS",
-      "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm.iOS\\WetUm.iOS.csproj",
+      "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\WetUm.iOS.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1119,8 +1119,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\WetUm.csproj": {
-              "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\WetUm.csproj"
+            "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {
+              "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj"
             }
           }
         }

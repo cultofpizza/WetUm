@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\WetUm.csproj": {}
+    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\WetUm.csproj": {
+    "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\WetUm.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj",
         "projectName": "WetUm",
-        "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\WetUm.csproj",
+        "projectPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\WetUm.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\CopyWetUm\\WetUm-wafph\\WetUm\\obj\\",
+        "outputPath": "C:\\Users\\Nikita\\Desktop\\all here\\C#\\simpleProjects\\WetUm\\WetUm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -72,7 +72,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -49,7 +49,7 @@
                 <!--#region Left-->
                 <Label Style="{DynamicResource defaultLabel}" Text="Today" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Start" FontSize="20" TextColor="#000000" HorizontalOptions="Start"></Label>
                 <Label Style="{DynamicResource defaultLabel}" x:Name="labelCurrentDay" Text="Monday" Grid.Row="1" Grid.Column="0" FontAttributes="Bold" TextColor="#000000" FontSize="24" VerticalTextAlignment="Start" HorizontalOptions="Start"></Label>
-                <Label Style="{DynamicResource defaultLabel}" x:Name="labelCurrentTemp" Text="{Binding current.Temp,Mode=OneWay,StringFormat='{0:N}°C'}" Grid.Row="2" Grid.Column="0" FontSize="46" TextColor="#000000" VerticalTextAlignment="Start" HorizontalTextAlignment="Start"></Label>
+                <Label Style="{DynamicResource defaultLabel}" x:Name="labelCurrentTemp" Text="{Binding current.Temp,Mode=OneWay,StringFormat='{0:F0}°C'}" Grid.Row="2" Grid.Column="0" FontSize="46" TextColor="#000000" VerticalTextAlignment="Start" HorizontalTextAlignment="Start"></Label>
                 <Label Style="{DynamicResource defaultLabel}" x:Name="labelCurrentInfo" Text="It's cloudy in Mocsow Oblast" Grid.Row="3" Grid.Column="0" TextColor="#000000" FontSize="30" VerticalTextAlignment="Start" HorizontalOptions="Start"></Label>
                 <!--#endregion-->
                 <!--#region Right-->
@@ -192,62 +192,62 @@
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp1" 
                                Grid.Row="2" Grid.Column="0" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="11°"/> 
+                               Text="{Binding hourly[0].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 2-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp2" 
                                Grid.Row="2" Grid.Column="1" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="12°"/> 
+                               Text="{Binding hourly[1].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 3-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp3" 
                                Grid.Row="2" Grid.Column="2" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="13°C"/> 
+                               Text="{Binding hourly[2].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 4-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp4" 
                                Grid.Row="2" Grid.Column="3" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="9°C"/> 
+                               Text="{Binding hourly[3].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 5-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp5" 
                                Grid.Row="2" Grid.Column="4" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center"  
-                               Text="temp"/> 
+                               Text="{Binding hourly[4].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 6-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp6" 
                                Grid.Row="2" Grid.Column="5" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center"  
-                               Text="temp"/> 
+                               Text="{Binding hourly[5].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 7-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp7" 
                                Grid.Row="2" Grid.Column="6" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center"  
-                               Text="temp"/> 
+                               Text="{Binding hourly[6].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 8-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp8" 
                                Grid.Row="2" Grid.Column="7" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center"  
-                               Text="temp"/> 
+                               Text="{Binding hourly[7].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 9-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp9" 
                                Grid.Row="2" Grid.Column="8" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center"  
-                               Text="temp"/> 
+                               Text="{Binding hourly[8].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 10-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp10" 
                                Grid.Row="2" Grid.Column="9" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="temp"/> 
+                               Text="{Binding hourly[9].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 11-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp11" 
                                Grid.Row="2" Grid.Column="10" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="temp"/> 
+                               Text="{Binding hourly[10].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/> 
                         <!--Temperature 12-->
                         <Label Style="{DynamicResource defaultLabel}" x:Name="labelHourTemp12" 
                                Grid.Row="2" Grid.Column="11" 
                                HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                               Text="temp"/>
+                               Text="{Binding hourly[11].Temp,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                         <!--#endregion-->
                     </Grid>
                 </StackLayout>
@@ -390,31 +390,31 @@
                     <!-- Temperature 1 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp1" 
                            Grid.Row="0" Grid.Column="3" HorizontalOptions="End" 
-                           Text="14 °C"/>
+                           Text="{Binding daily[0].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!-- Temperature 2 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp2" 
                            Grid.Row="1" Grid.Column="3" HorizontalOptions="End" 
-                           Text="13 °C"/>
+                           Text="{Binding daily[1].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!-- Temperature 3 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp3" 
                            Grid.Row="2" Grid.Column="3" HorizontalOptions="End" 
-                           Text="day3"/>
+                           Text="{Binding daily[2].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!-- Temperature 4 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp4" 
                            Grid.Row="3" Grid.Column="3" HorizontalOptions="End"
-                           Text="day4"/>
+                           Text="{Binding daily[3].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!-- Temperature 5 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp5" 
                            Grid.Row="4" Grid.Column="3" HorizontalOptions="End" 
-                           Text="day5"/>
+                           Text="{Binding daily[4].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!-- Temperature 6 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp6" 
                            Grid.Row="5" Grid.Column="3" HorizontalOptions="End" 
-                           Text="day6"/>
+                           Text="{Binding daily[5].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!-- Temperature 7 -->
                     <Label Style="{DynamicResource defaultLabel}" x:Name="labelDayTemp7" 
                            Grid.Row="6" Grid.Column="3" HorizontalOptions="End" 
-                           Text="day7"/>
+                           Text="{Binding daily[6].temp.Day,Mode=OneWay,StringFormat='{0:F0}°C'}"/>
                     <!--#endregion-->
                 </Grid>
                 <!--#region Additional Data-->

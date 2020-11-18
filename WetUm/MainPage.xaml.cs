@@ -22,8 +22,24 @@ namespace WetUm
             SetLightTheme();
             App.Current.Resources["defaultBG"] = App.Current.Resources["nightBG"];
             App.Current.Resources["defaultBG"] = App.Current.Resources["cloudBG"];
+            Button_Clicked(null, null);
         }
 
+        public async void Button_Clicked(object sender, EventArgs e)
+        {
+            if(!DependencyService.Get<ILocationActivity>().IsLocationEnabled())
+            {
+                var reaction = await DisplayAlert("Ошибка", "Включите геолокацию", "ОК", "Отмена");
+                if (reaction)
+                    DependencyService.Get<IOpenLocationSettings>().OpenSettings();
+            }
+            else
+            {
+                BindingContext = await WetUmData.GetBindingData();
+            }
+        }
+
+        #region Это Сделал Саша
         private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
         {
             HourlyScrollLayout.TranslationY = -dailyScroll.ScrollY / 3.5;
@@ -31,15 +47,8 @@ namespace WetUm
             dailyBorderTop.TranslationY = -dailyScroll.ScrollY / 3.5;
             dailyBorderBottom.TranslationY = -dailyScroll.ScrollY / 3.5;
 
-            labelCurrentInfo.Opacity = 1 + dailyScroll.TranslationY/45;
-            labelCurrentDescription.Opacity = 1 + dailyScroll.TranslationY/45;
-        }
-
-        void Button_Clicked(object sender, EventArgs e)
-        {
-            label1.Text = dailyScroll.Height.ToString();
-            label2.Text = dailyScroll.TranslationY.ToString();
-            GetLocation();
+            labelCurrentInfo.Opacity = 1 + dailyScroll.TranslationY / 45;
+            labelCurrentDescription.Opacity = 1 + dailyScroll.TranslationY / 45;
         }
 
         void Dark_Clicked(object sender, EventArgs e)
@@ -75,6 +84,7 @@ namespace WetUm
             App.Current.Resources["tornado"] = App.Current.Resources["tornado_light"];
             App.Current.Resources["umbrella"] = App.Current.Resources["umbrella_light"];
         }
+
         public void SetLightTheme()
         {
             App.Current.Resources["defaultLabel"] = App.Current.Resources["darkLabel"];
@@ -99,85 +109,87 @@ namespace WetUm
             App.Current.Resources["tornado"] = App.Current.Resources["tornado_dark"];
             App.Current.Resources["umbrella"] = App.Current.Resources["umbrella_dark"];
         }
+        #endregion
+        #region Это я закоментил
+        //public async void GetLocation()
+        //{
+        //    try
+        //    {
+        //        var request = new GeolocationRequest(GeolocationAccuracy.Medium);
+        //        var location = await Geolocation.GetLocationAsync(request);
 
-        public async void GetLocation()
-        {
-            try
-            {
-                var request = new GeolocationRequest(GeolocationAccuracy.Medium);
-                var location = await Geolocation.GetLocationAsync(request);
+        //        if (location != null)
+        //        {
+        //            await GetRegionAsync(location.Latitude, location.Longitude);
+        //        }
+        //    }
+        //    catch (FeatureNotSupportedException fnsEx)
+        //    {
+        //        // Handle not supported on device exception
+        //        Console.WriteLine("ошибОЧКА: " + fnsEx);
+        //    }
+        //    catch (FeatureNotEnabledException fneEx)
+        //    {
+        //        // Handle not enabled on device exception
+        //        var reaction = await DisplayAlert("Ошибка", "Включите геолокацию", "ОК", "Отмена");
+        //        if (reaction)
+        //            DependencyService.Get<IOpenLocationSettings>().OpenSettings();
+        //    }
+        //    catch (PermissionException pEx)
+        //    {
+        //        // Handle permission exception
+        //        Console.WriteLine("ошибОЧКА: " + pEx);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Unable to get location
+        //        Console.WriteLine("ошибОЧКА: " + ex);
+        //    }
+        //}
 
-                if (location != null)
-                {
-                    await GetRegionAsync(location.Latitude, location.Longitude);
-                }
-            }
-            catch (FeatureNotSupportedException fnsEx)
-            {
-                // Handle not supported on device exception
-                Console.WriteLine("ошибОЧКА: " + fnsEx);
-            }
-            catch (FeatureNotEnabledException fneEx)
-            {
-                // Handle not enabled on device exception
-                var reaction = await DisplayAlert("Ошибка", "Включите геолокацию", "ОК", "Отмена");
-                if (reaction)
-                    DependencyService.Get<IOpenLocationSettings>().OpenSettings();
-            }
-            catch (PermissionException pEx)
-            {
-                // Handle permission exception
-                Console.WriteLine("ошибОЧКА: " + pEx);
-            }
-            catch (Exception ex)
-            {
-                // Unable to get location
-                Console.WriteLine("ошибОЧКА: " + ex);
-            }
-        }
+        //private async Task GetRegionAsync(double lat, double lon)
+        //{
+        //    API.Key = "251ecc83c9f9662f52e6f27f28de5962";
+        //    API.units = "metric";
+        //    string call = API.GetJSON(lat.ToString(), lon.ToString());
+        //    var weather = WeatherDataShort.Parse(call);
+        //    this.BindingContext = weather;
+        //    try
+        //    {
+        //        var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
 
-        private async Task GetRegionAsync(double lat, double lon)
-        {
-            API.Key = "251ecc83c9f9662f52e6f27f28de5962";
-            API.units = "metric";
-            string call = API.GetJSON(lat.ToString(), lon.ToString());
-            var weather = WeatherDataShort.Parse(call);
-            this.BindingContext = weather;
-            try
-            {
-                var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
+        //        var placemark = placemarks?.FirstOrDefault();
+        //        if (placemark != null)
+        //        {
 
-                var placemark = placemarks?.FirstOrDefault();
-                if (placemark != null)
-                {
+        //            var geocodeAddress =
+        //                $"AdminArea:       {placemark.AdminArea}\n" +
+        //                $"CountryCode:     {placemark.CountryCode}\n" +
+        //                $"CountryName:     {placemark.CountryName}\n" +
+        //                $"FeatureName:     {placemark.FeatureName}\n" +
+        //                $"Locality:        {placemark.Locality}\n" +
+        //                $"PostalCode:      {placemark.PostalCode}\n" +
+        //                $"SubAdminArea:    {placemark.SubAdminArea}\n" +
+        //                $"SubLocality:     {placemark.SubLocality}\n" +
+        //                $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
+        //                $"Thoroughfare:    {placemark.Thoroughfare}\n" +
+        //                $"Ветер:    {weather.current.wind_speed}\n" +
+        //                $"Дневная температура через 2 дня:    {weather.daily[1].temp.day}\n";
 
-                    var geocodeAddress =
-                        $"AdminArea:       {placemark.AdminArea}\n" +
-                        $"CountryCode:     {placemark.CountryCode}\n" +
-                        $"CountryName:     {placemark.CountryName}\n" +
-                        $"FeatureName:     {placemark.FeatureName}\n" +
-                        $"Locality:        {placemark.Locality}\n" +
-                        $"PostalCode:      {placemark.PostalCode}\n" +
-                        $"SubAdminArea:    {placemark.SubAdminArea}\n" +
-                        $"SubLocality:     {placemark.SubLocality}\n" +
-                        $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
-                        $"Thoroughfare:    {placemark.Thoroughfare}\n" +
-                        $"Ветер:    {weather.current.wind_speed}\n" +
-                        $"Дневная температура через 2 дня:    {weather.daily[1].temp.day}\n";
-
-                    //lable1.Text = geocodeAddress;
-                }
-            }
-            catch (FeatureNotSupportedException fnsEx)
-            {
-                // Feature not supported on device
-                Console.WriteLine(fnsEx);
-            }
-            catch (Exception ex)
-            {
-                // Handle exception that may have occurred in geocoding
-                Console.WriteLine(ex);
-            }
-        }
+        //            //lable1.Text = geocodeAddress;
+        //        }
+        //    }
+        //    catch (FeatureNotSupportedException fnsEx)
+        //    {
+        //        // Feature not supported on device
+        //        Console.WriteLine(fnsEx);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Handle exception that may have occurred in geocoding
+        //        Console.WriteLine(ex);
+        //    }
+        //}
+        #endregion
     }
 }

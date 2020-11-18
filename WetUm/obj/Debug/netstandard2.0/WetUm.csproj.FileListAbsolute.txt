@@ -11,19 +11,6 @@ C:\Users\Nikita\Desktop\здесь всё\C#\simpleProjects\WetUm\WetUm\obj\Debu
 C:\Users\Nikita\Desktop\здесь всё\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.dll
 C:\Users\Nikita\Desktop\здесь всё\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\ref\WetUm.dll
 C:\Users\Nikita\Desktop\здесь всё\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.pdb
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.deps.json
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.dll
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\ref\WetUm.dll
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.pdb
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csprojAssemblyReference.cache
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfoInputs.cache
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfo.cs
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.dll
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\ref\WetUm.dll
-C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.pdb
 C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.deps.json
 C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.dll
 C:\Users\wafph\Source\Repos\WetUm\WetUm\bin\Debug\netstandard2.0\ref\WetUm.dll
@@ -53,3 +40,17 @@ C:\Users\Nikita\Desktop\all here\C#\simpleProjects\CopyWetUm\WetUm-wafph\WetUm\b
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\CopyWetUm\WetUm-wafph\WetUm\bin\Debug\netstandard2.0\ref\WetUm.dll
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\CopyWetUm\WetUm-wafph\WetUm\bin\Debug\netstandard2.0\WetUm.pdb
 C:\Users\Nikita\Desktop\all here\C#\simpleProjects\CopyWetUm\WetUm-wafph\WetUm\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.deps.json
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.dll
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\ref\WetUm.dll
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\bin\Debug\netstandard2.0\WetUm.pdb
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfoInputs.cache
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.AssemblyInfo.cs
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.dll
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\ref\WetUm.dll
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.pdb
+C:\Users\Nikita\Desktop\all here\C#\simpleProjects\WetUm\WetUm\obj\Debug\netstandard2.0\WetUm.csprojAssemblyReference.cache
